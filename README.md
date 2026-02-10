@@ -22,13 +22,10 @@ Built as a real-world full-stack system, CipherVault focuses on authentication, 
 ## 📸 Preview
 
 ### 🔐 Authentication Interface
-![Login](./docs/screenshots/login.png)
+![Login](./screenshots/login.png)
 
-### 📝 Secure Dashboard
-![Dashboard](./docs/screenshots/dashboard.png)
-
-### 🤖 Guardian AI Assistant
-![AI](./docs/screenshots/ai-assistant.png)
+### 🤖 Notes with Guardian AI Assistant
+![AI](./screenshots/app.png)
 
 ---
 
