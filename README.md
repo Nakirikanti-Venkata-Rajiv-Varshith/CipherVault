@@ -100,8 +100,6 @@ CipherVault is built with security as a core principle:
 - User-specific query filtering
 - Backend-controlled AI requests
 
----
 
-## 📂 Project Structure
 
 
