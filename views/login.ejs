@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CipherVault-Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/loginstyle.css">
+
+</head>
+
+<body>
+
+
+  <div class="about">
+
+    <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank" rel="noopener">
+      <span class="icon"></span>
+    </a>
+
+    <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank" rel="noopener">
+      <span class="icon"></span>
+    </a>
+
+    <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank" rel="noopener">
+      <span class="icon"></span>
+    </a>
+
+    <a class="bg_links logo" href="#" aria-label="logo"></a>
+
+  </div>
+
+  <!-- nav bar included -->
+  <%- include("partials/navbar") %>
+
+    <header class="mainHeading">
+
+      <div class="mainHeading__content">
+
+        <article class="mainHeading__text">
+
+          <h2 class="mainHeading__title">
+            The Safe House for your THOUGHTS
+          </h2>
+
+          <p class="mainHeading__description">
+            A private space to write freely.<br>
+            Write. Save. Breathe — your thoughts stay safe, personal, and only yours, supported by Guardian AI to help you organize, reflect, and think deeper.
+          </p>
+
+          <button class="cta">Know more</button>
+
+        </article>
+
+        <figure class="mainHeading__image">
+          <img src="/assets/illustration.png" alt="illustration">
+        </figure>
+
+        <div class="card">
+
+          <h2 style="color: black">LOGIN</h2>
+
+        
+          <form action="/login" method="POST">
+
+            <label>Email</label>
+            
+            <input type="email" name="email" placeholder="Enter email">
+
+            <label>Password</label>
+            
+            <input type="password" name="password" placeholder="Enter password">
+
+            <button type="submit">Login</button>
+
+          </form>
+
+          <p class="register-text">
+            Don’t have an account?
+            <a href="/register">Register</a>
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Register Page</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/registerstyle.css" />
+
+</head>
+
+<body>
+
+  <!-- navbar included -->
+  <%- include("partials/navbar") %>
+
+    <div class="container">
+
+      <div class="left">
+
+        <div class="card">
+
+          <h2>Please Fill out form to Register!</h2>
+
+          <form action="/register" method="POST">
+
+            <label>Email: </label>
+            <input type="email" name="email" placeholder="email" />
+
+            <label>Password: </label>
+            <input type="password" name="password" placeholder="Enter_password" />
+
+            <label>Confirm Password: </label>
+            <input type="password" name="confirm_password" placeholder="Confirm_password" />
+
+            <button type="submit">Register</button>
+
+          </form>
+
+          <p class="register-text">
+            Already registered?
+            <a style="text-decoration: underline;" href="/login">Login</a>
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</body>
+
+</html>
